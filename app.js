@@ -30,3 +30,4 @@ es_par("e")
 //muestre cuantos son pares
 //muestre cuantos son impares
 //utilice una funcion para saber si son pares o no
+
