@@ -60,4 +60,62 @@ console.log("El promedio de los numeros pares es ",sumap/contp)
 console.log("El promedio de los numeros Impares es ",sumai/conti)
 
 //Modifique el codigo para que muestre
-//
+//el promedio de los numeros par e impares
+
+
+//array
+
+let array=[]
+
+for(i = 0; i <= 20; i++){
+    array.push(i)
+}
+console.log(array)
+
+let arrayB=[]
+
+for(i = 0; i <= 20; i++){
+    arrayB.push(i*2)
+
+}
+console.log(arrayB)
+
+//crear una funcion que permita
+//mostrar el contenido de un arreglo
+
+function datosArray(arreglo){
+    console.log(arreglo)
+}
+
+let arr=[2,7,9,12,25]
+let arre=["Carlos","Ana","Juan"]
+
+datosArray(arr)
+datosArray(arre)
+
+
+// forEach
+
+let numeros=[2,4,6,8]
+
+numeros.forEach(function(elemento,i,arreglo){
+    arreglo[i]=Math.pow(elemento,2)
+
+})
+
+console.log(numeros)
+
+let suma=0
+let numbers=[65,44,12,4]
+
+numbers.forEach(myFunction)
+
+function myFunction(item){
+    suma=suma+item
+    document.write("<br>" + "Valor "+item+" Total : "+suma)
+}
+
+//cree un arreglo con 10 elementos aleatorios
+//Muestre el promedio de los valores del arreglo
+//Muestre el mayor y el menor elemento del arreglo
+
